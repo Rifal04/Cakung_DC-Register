@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="warna1">#7FAAAE</color>
+    <color name="warna2">#94B9FF</color>
+    <color name="clr2">#0C4160</color>
+    <color name="clr1">#071330</color>
+    <color name="back">#DFDFDF</color>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Menu Cakung DC</string>
+    <string name="login_cakung">Login Cakung DC</string>
+    <string name="data_cakung">Data Cakung DC</string>
+    <string name="email">Email</string>
+    <string name="psw">Password</string>
+    <string name="name">Name</string>
+    <string name="gnd">Gender</string>
+    <string name="bd">Birth Date</string>
+    <string name="ads">Domisili</string>
+    <string name="sbt">Submit</string>
+    <string name="pr">Perempuan</string>
+    <string name="lk">Laki-laki</string>
+
+
+</resources>

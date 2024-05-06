@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/txt_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/data_cakung"
+        android:textColor="@color/clr2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/warna1"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/data_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_app"
+        android:layout_marginStart="10dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/clr2"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/data_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_email"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="@color/clr2"
+        android:textSize="18sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/data_ulangTahun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_nama"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="@color/clr2"
+        android:textSize="18sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/data_domisili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_ulangTahun"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="@color/clr2"
+        android:textSize="18sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/data_jenisKelamin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_domisili"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="@color/clr2"
+        android:textSize="18sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:id="@+id/data_jenisKelamin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_domisili"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="@color/clr2"
+        android:textSize="18sp"
+        android:fontFamily="monospace"/>
+
+
+</RelativeLayout>
+</RelativeLayout>
